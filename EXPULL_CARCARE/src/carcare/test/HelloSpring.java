@@ -3,6 +3,6 @@ package carcare.test;
 public class HelloSpring {
 	
 	public static void main(String args[]){
-		System.out.println("test ½ÃÀÛÇÕ½Ã´Ù");
+		System.out.println("test í•˜ê³  ì‹¶ì–´ìš”");
 	}
 }
