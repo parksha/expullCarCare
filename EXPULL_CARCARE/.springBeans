@@ -8,6 +8,7 @@
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
 		<config>WebContent/WEB-INF/config/spring/context-core.xml</config>
+		<config>WebContent/WEB-INF/config/spring/datacontext-beans.xml</config>
 	</configs>
 	<configSets>
 	</configSets>
