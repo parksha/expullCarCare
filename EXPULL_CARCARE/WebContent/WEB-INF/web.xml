@@ -10,9 +10,8 @@
 		<welcome-file>index.jsp</welcome-file>
 		<welcome-file>default.html</welcome-file>
 		<welcome-file>default.htm</welcome-file>
-		<welcome-file>default.jsp</welcome-file>
+		<welcome-file>jsp/default.jsp</welcome-file>
 	</welcome-file-list>
-
 	<!-- The front controller of this Spring Web application, responsible for 
 		handling all application requests -->
 	<servlet>
@@ -23,6 +22,7 @@
 			<param-value>
 				/WEB-INF/config/spring/context-*.xml
 				/WEB-INF/config/spring/beans-*.xml
+				/WEB-INF/config/spring/datacontext-*.xml
 			</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
@@ -59,7 +59,7 @@
 <!-- </context-param> -->
 
 	<!-- Bootstraps the root web application context before servlet initialization -->
-	<!-- <listener> -->
-	<!-- <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class> -->
-	<!-- </listener> -->
+<!-- 	<listener> -->
+<!-- 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class> -->
+<!-- 	</listener> -->
 </web-app>
