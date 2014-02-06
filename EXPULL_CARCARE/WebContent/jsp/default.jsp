@@ -6,6 +6,10 @@
 <title>Insert title here</title>
 </head>
 <body>
+
 	hello world yang
+	
+	location.herf = "http://localhost:8080/gettest";
+		
 </body>
 </html>
