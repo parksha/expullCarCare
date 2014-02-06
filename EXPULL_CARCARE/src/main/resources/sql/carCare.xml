@@ -4,7 +4,7 @@
 <!--   <cache-ref namespace="test"/> -->
 	
 	
-	<update id="createNewTable" parameterType="String">
+	<update id="createNewTable">
 		#{value}
 	</update>
   
